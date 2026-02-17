@@ -1,0 +1,46 @@
+img{
+    height: 125px;
+    width: auto;
+}
+
+.header{
+    display: flex;
+}
+
+.links{
+    display: flex;
+}
+
+.body_one{
+    display: flex;
+}
+
+.body_one_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.body_two{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body_two_images{
+    display: flex;
+    
+}
+
+.body_three{
+    display: flex;
+    flex-direction: column;
+}
+
+.body_four{
+    display:flex;
+
+}
+.body_four_text{
+    display: flex;
+    flex-direction: column;
+}
