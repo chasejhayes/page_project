@@ -1,46 +1,181 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
 img{
     height: 125px;
     width: auto;
+    border-radius: 25px;
+     border: 5px solid #3882F6;
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 15px 100px;
+    box-sizing: border-box;
+    
+}
+
+.logo{
+    flex-shrink: 0;
 }
 
 .links{
     display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 15px;
+
 }
 
 .body_one{
     display: flex;
+    background-color: #1F2937;
+    padding: 15px 100px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
 }
 
 .body_one_info{
     display: flex;
     flex-direction: column;
+     margin: 25px 0px;
+
+}
+
+.main_text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 10px;
+   
+}
+
+.under_main_text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    /* flex: 0 0 0; */
+
+}
+
+.main_image{
+    height: 250px;
+    border: none;
 }
 
 .body_two{
     display: flex;
     flex-direction: column;
+    padding: 15px 100px;
+
+}
+
+.info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    
 
 }
 
 .body_two_images{
     display: flex;
-    
+    gap: 15px;
+    /* border: 5px solid #3882F6; */
+}
+
+
+.image_text{
+    font-size: 18px;
+    color: #1F2937;
+
+
 }
 
 .body_three{
     display: flex;
     flex-direction: column;
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+
+}
+
+.author{
+    text-align: end;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .body_four{
-    display:flex;
+    padding: 50px 100px;
+    background-color: white;
 
 }
+
+.body_four_content{
+    display:flex;
+    background-color: #3882F6;
+    padding: 25px;
+    border-radius: 15px;
+    justify-content: space-between;
+    
+
+}
+
 .body_four_text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
+
+
+
+.bottom_button{
+    border: 2px solid white;
+    color: white;
+}
+
+.call_header{
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+}
+.call_text{
+    color: white;
+    font-size: small;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 25px 100px;
+}
+
